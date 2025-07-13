@@ -1,0 +1,55 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-width: 2px;
+  align-items: center;
+}
+
+.left-section {
+  color: white;
+  margin-left: 120px;
+}
+
+.middle-section {
+  width: 400px;
+  color: white;
+  display: flex;
+  margin-right: 120px;
+  justify-content: space-between;
+}
+
+.car-register-btn {
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-width: 2px;
+   width: 170px;
+   height: 50px;
+
+}
+
+.car-register-btn:hover {
+color: black;
+background-color: white;
+
+}
