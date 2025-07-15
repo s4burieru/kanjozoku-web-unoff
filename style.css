@@ -4,6 +4,7 @@ p {
 
 body {
   height: 950px;
+  background-color: black;
 }
 
 .header {
@@ -40,4 +41,7 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
+height: 870px;
+color: red;
+font-size: 200px;
 }
