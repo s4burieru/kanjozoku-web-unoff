@@ -38,10 +38,29 @@ body {
 }
 
 .hero-section {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 870px;
-color: red;
-font-size: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 870px;
+  color: red;
+  font-size: 200px;
 }
+
+.hero-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 200px;
+}
+
+.hero-description {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+
+}
+
