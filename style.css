@@ -47,20 +47,20 @@ body {
   font-size: 200px;
 }
 
-.hero-header{
+.hero-header {
   display: flex;
   justify-content: center;
   align-items: center;
   color: red;
   font-size: 200px;
+  margin: 0;
 }
 
 .hero-description {
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: red;
   font-size: 20px;
-
+  margin: 0;
 }
-
