@@ -12,9 +12,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 870px;
   color: red;
   font-size: 200px;
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
 }
 
 .hero-header {
