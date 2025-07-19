@@ -2,9 +2,13 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+margin: 0;
+
+}
+
 body {
-  height: 950px;
-  background-color: black;
+  margin: 0;
 }
 
 .hero-section {
@@ -12,27 +16,30 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: red;
   font-size: 200px;
   height: 100vh;
   padding: 2rem;
   text-align: center;
+  background-color: black;
 }
 
 .hero-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: red;
   font-size: 200px;
   margin: 0;
 }
 
 .hero-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: red;
   font-size: 20px;
   margin: 0;
+}
+
+.about-section {
+height: 100vh;
+background-color: black;
+color: white;
+margin: 0;
+display: flex;
+justify-content: center;
 }
