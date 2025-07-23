@@ -61,3 +61,12 @@ margin: 0;
 display: flex;
 justify-content: center;
 }
+
+.contactus-section {
+height: 100vh;
+background-color: black;
+color: white;
+margin: 0;
+display: flex;
+justify-content: center;
+}
