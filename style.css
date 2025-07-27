@@ -3,13 +3,19 @@ p {
 }
 
 h1 {
-margin-top: 120px;
-font-family: Arial, Helvetica, sans-serif;
-
+  margin-top: 120px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
+}
+
+.background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .hero-section {
@@ -19,56 +25,100 @@ body {
   align-items: center;
   font-size: 200px;
   height: 100vh;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+   background-image: linear-gradient(rgb(0, 0, 0), transparent, transparent,rgb(0, 0, 0));
+  
 }
 
 .hero-header {
-  color: red;
+  color: rgb(255, 255, 255);
   font-size: 200px;
   margin: 0;
 }
 
 .hero-description {
-  color: red;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   margin: 0;
   padding-bottom: 100px;
 }
 
 .about-section {
-height: 100vh;
-background-color: black;
-color: white;
-margin: 0;
-display: flex;
-justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.background-clip2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 
 .history-section {
-height: 100vh;
-background-color: black;
-color: white;
-margin: 0;
-display: flex;
-justify-content: center;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(rgb(0, 0, 0), transparent, transparent,rgb(0, 0, 0));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.history-content {
+  z-index: 2;
+  color: white;
 }
 
 .gallery-section {
-height: 100vh;
-background-color: black;
-color: white;
-margin: 0;
-display: flex;
-justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-section {
-height: 100vh;
-background-color: black;
-color: white;
-margin: 0;
-display: flex;
-justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .background-clip {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .background-clip {
+    width: auto;
+    height: 100%;
+  }
 }
