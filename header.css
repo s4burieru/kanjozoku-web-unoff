@@ -16,6 +16,12 @@
   z-index: 5;
 }
 
+.logo-header {
+width: 120px;
+padding-top: 5px;
+
+}
+
 .left-section {
   color: white;
   margin-left: 120px;
