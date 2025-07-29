@@ -17,21 +17,20 @@
 }
 
 .logo-header {
-width: 120px;
-padding-top: 5px;
-
+  width: 100px;
+  padding-top: 5px;
 }
 
 .left-section {
   color: white;
-  margin-left: 120px;
+  padding-left: 120px;
 }
 
 .middle-section {
   width: 400px;
   color: white;
   display: flex;
-  margin-right: 120px;
+  padding-right: 120px;
   justify-content: space-between;
 }
 
