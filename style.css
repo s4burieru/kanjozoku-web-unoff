@@ -143,6 +143,10 @@ body {
   justify-content: center;
 }
 
+.contact-header {
+  font-size: 40px;
+}
+
 @media (min-aspect-ratio: 16/9) {
   .background-clip {
     width: 100%;
