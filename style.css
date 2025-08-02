@@ -92,7 +92,10 @@ body {
   overflow: hidden;
   color: white;
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 140px;
+  flex-direction: column;
 }
 
 .color-overlay {
