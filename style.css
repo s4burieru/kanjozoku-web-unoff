@@ -10,48 +10,6 @@ body {
   margin: 0;
 }
 
-.about-section {
-  height: 100vh;
-  background-color: black;
-  color: white;
-  margin: 0;
-  display: flex;
-  align-items: flex-start;
-  text-align: left;
-  padding-left: 140px;
-  flex-direction: column;
-}
-
-.about-contents {
-  display: flex;
-  flex-direction: row;
-}
-
-.about-header {
-  font-size: 40px;
-  margin-top: 110px;
-}
-
-.about-description {
-  padding-top: 30px;
-  padding-right: 100px;
-  font-size: 20px;
-  text-align: justify;
-  word-spacing: 3px;
-  letter-spacing: 1px;
-  line-height: 40px;
-}
-
-.about-img {
-  display: flex;
-  margin-right: 140px;
-  margin-top: 34px;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 20px;
-  border-color: white;
-  size: 100%;
-}
 
 .background-clip2 {
   position: absolute;
