@@ -1,0 +1,60 @@
+.background-clip2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.history-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 140px;
+  flex-direction: column;
+  padding-right: 140px;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    rgb(0, 0, 0),
+    transparent,
+    transparent,
+    rgb(0, 0, 0)
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+.history-content {
+  z-index: 2;
+  color: white;
+}
+
+.history-header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.history-description {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
