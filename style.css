@@ -10,16 +10,7 @@ body {
   margin: 0;
 }
 
-.contact-section {
-  height: 100vh;
-  background-color: black;
-  color: white;
-  margin: 0;
-  display: flex;
-  align-items: flex-start;
-  text-align: left;
-  flex-direction: column;
-}
+
 
 .contact-header {
   font-size: 40px;
