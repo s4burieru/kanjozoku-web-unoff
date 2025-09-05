@@ -8,3 +8,9 @@
   text-align: left;
   flex-direction: column;
 }
+.contact-header {
+  font-size: 40px;
+  margin-top: 110px;
+  align-self: center;
+  margin-bottom: 60px;
+}
