@@ -33,3 +33,10 @@ form {
   align-self: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  font-size: 20px;
+}
