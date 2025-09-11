@@ -40,3 +40,15 @@ label {
   align-self: flex-start;
   font-size: 20px;
 }
+
+input,
+textarea,
+button {
+  width: 580px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  background-color: white;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}

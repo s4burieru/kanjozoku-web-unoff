@@ -21,17 +21,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-input,
-textarea,
-button {
-  width: 580px;
-  margin-bottom: 15px;
-  border: 1px solid;
-  background-color: white;
-  height: 40px;
-  border-radius: 10px;
-  padding: 10px;
-}
+
 
 .message {
   height: 160px;
