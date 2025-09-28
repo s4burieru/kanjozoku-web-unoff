@@ -21,11 +21,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.submit-button:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
-  transition-duration: 0.4s;
-}
+
 
 @media (min-aspect-ratio: 16/9) {
   .background-clip {
