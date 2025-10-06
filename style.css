@@ -22,7 +22,6 @@ body {
 }
 
 
-
 @media (min-aspect-ratio: 16/9) {
   .background-clip {
     width: 100%;
