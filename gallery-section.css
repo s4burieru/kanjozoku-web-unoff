@@ -13,7 +13,9 @@
 
 .gallery-header {
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 10px;
+  align-self: center;
+  margin-right: 140px;
 }
 
 .gallery-images {
@@ -21,8 +23,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-margin-top: 40px;
 margin-right: 130px;
+margin-top: 20px;
 }
 
 .gallery-img {
@@ -39,6 +41,4 @@ transition: 400ms;
 .gallery-img:hover {
 filter: brightness(1);
 transform: scale(1.03);
-
-
 }
