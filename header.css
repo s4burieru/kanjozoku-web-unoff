@@ -26,6 +26,14 @@
   padding-left: 120px;
 }
 
+.middle-section ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .middle-section {
   width: 400px;
   color: white;
@@ -39,4 +47,21 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   margin-top: 15px;
+}
+
+.middle-section a:hover {
+  color: #a7a7a7; /* Accent color */
+}
+
+/* Mobile version */
+@media (max-width: 768px) {
+  .middle-section ul {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .middle-section ul {
+    display: none;
+  }
 }
