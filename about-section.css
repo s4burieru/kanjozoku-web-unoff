@@ -6,23 +6,25 @@
   display: flex;
   align-items: flex-start;
   text-align: left;
-  padding-left: 140px;
+  padding: 110px 40px 40px 40px;
   flex-direction: column;
 }
 
 .about-contents {
   display: flex;
   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 40px; 
+  align-items: flex-start;
 }
 
 .about-header {
   font-size: 40px;
-  margin-top: 110px;
+    margin-bottom: 20px;
 }
 
 .about-description {
-  padding-top: 30px;
-  padding-right: 100px;
+    flex: 1 1 400px;         
   font-size: 20px;
   text-align: justify;
   word-spacing: 3px;
@@ -31,14 +33,12 @@
 }
 
 .about-img {
-  display: flex;
-  margin-right: 140px;
-  margin-top: 34px;
-  border-style: solid;
-  border-width: 2px;
+    flex: 1 1 300px;      
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
   border-radius: 20px;
-  border-color: white;
-  size: 100%;
 }
 
 @media (max-width: 992px) {
