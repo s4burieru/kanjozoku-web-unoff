@@ -50,10 +50,9 @@ a {
 }
 
 .middle-section a:hover {
-  color: #a7a7a7; /* Accent color */
+  color: #a7a7a7;
 }
 
-/* Mobile version */
 @media (max-width: 768px) {
   .middle-section ul {
     gap: 18px;
