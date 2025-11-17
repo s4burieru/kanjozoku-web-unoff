@@ -79,3 +79,21 @@
     text-align: left;        
   }
 }
+
+@media (max-width: 900px) {
+  .history-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto; /* prevent text overflow */
+    padding-top: 100px;
+  }
+
+  .history-header {
+    font-size: 34px;
+  }
+
+  .history-description {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
